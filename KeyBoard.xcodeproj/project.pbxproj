@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8423F3F71A7CFD0300E2C501 /* KeyBoardTool.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8423F3F61A7CFD0300E2C501 /* KeyBoardTool.xib */; };
 		84C3B8FF1A7CE7BD0048A62A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3B8FE1A7CE7BD0048A62A /* main.m */; };
 		84C3B9021A7CE7BD0048A62A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3B9011A7CE7BD0048A62A /* AppDelegate.m */; };
 		84C3B9051A7CE7BD0048A62A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3B9041A7CE7BD0048A62A /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8423F3F61A7CFD0300E2C501 /* KeyBoardTool.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyBoardTool.xib; sourceTree = "<group>"; };
 		84C3B8F91A7CE7BD0048A62A /* KeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C3B8FD1A7CE7BD0048A62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C3B8FE1A7CE7BD0048A62A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				84C3B9091A7CE7BE0048A62A /* Images.xcassets */,
 				84C3B90B1A7CE7BE0048A62A /* LaunchScreen.xib */,
 				84C3B8FC1A7CE7BD0048A62A /* Supporting Files */,
+				8423F3F61A7CFD0300E2C501 /* KeyBoardTool.xib */,
 			);
 			path = KeyBoard;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8423F3F71A7CFD0300E2C501 /* KeyBoardTool.xib in Resources */,
 				84C3B9081A7CE7BE0048A62A /* Main.storyboard in Resources */,
 				84C3B90D1A7CE7BE0048A62A /* LaunchScreen.xib in Resources */,
 				84C3B90A1A7CE7BE0048A62A /* Images.xcassets in Resources */,
@@ -412,6 +416,7 @@
 				84C3B91E1A7CE7BE0048A62A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84C3B91F1A7CE7BE0048A62A /* Build configuration list for PBXNativeTarget "KeyBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				84C3B9211A7CE7BE0048A62A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

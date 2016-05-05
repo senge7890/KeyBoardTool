@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate>
 
-
+@property (weak, nonatomic) IBOutlet UITextField *nameField;
+@property (weak, nonatomic) IBOutlet UITextField *dataBirthday;
+@property (weak, nonatomic) IBOutlet UITextField *address;
+- (IBAction)downOneFirstResponder:(UIBarButtonItem *)sender;
+- (IBAction)keyBoardExit:(UIBarButtonItem *)sender;
+- (IBAction)upOneFirstResponder:(UIBarButtonItem *)sender;
 @end
 
